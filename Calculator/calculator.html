@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="javascript.js"></script>
+</head>
+<body>
+	<table border="0">
+		<tr>
+			<td colspan="4"><div id="result">0</div></td>
+		</tr>
+		<tr>
+			<td><div></div></td>
+			<td><div onclick="special('sin')">sin</div></td>
+			<td><div onclick="special('cos')">cos</div></td>
+			<td><div onclick="special('tan')">tan</div></td>
+		</tr>
+		<tr>
+			<td><div onclick="clears()">C</div></td>
+			<td colspan="2"><div class="del" onclick="del()">Del</div></td>
+			<td><div onclick="symbol(':')">:</div></td>
+		</tr>
+		<tr>
+			<td><div onclick="add(7)">7</div></td>
+			<td><div onclick="add(8)">8</div></td>
+			<td><div onclick="add(9)">9</div></td>
+			<td><div onclick="symbol('x')">x</div></td>
+		</tr>
+		<tr>
+			<td><div onclick="add(4)">4</div></td>
+			<td><div onclick="add(5)">5</div></td>
+			<td><div onclick="add(6)">6</div></td>
+			<td><div onclick="symbol('-')">-</div></td>
+		</tr>
+		<tr>
+			<td><div onclick="add(1)">1</div></td>
+			<td><div onclick="add(2)">2</div></td>
+			<td><div onclick="add(3)">3</div></td>
+			<td><div onclick="symbol('+')">+</div></td>
+		</tr>
+		<tr>
+			<td><div>+-</div></td>
+			<td><div onclick="add(0)">0</div></td>
+			<td><div onclick="add('.')">.</div></td>
+			<td><div onclick="symbol('=')">=</div></td>
+		</tr>
+	</table>
+	<div id="history">
+		<h1>History</h1>
+	</div>
+</body>
+</html>

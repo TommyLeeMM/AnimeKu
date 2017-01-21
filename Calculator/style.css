@@ -1,0 +1,43 @@
+table div{
+	background:#3dcedf;
+	height:40px;
+	font-size: 24px;
+	font-family: arial;
+	text-align: center;
+	padding-top: 20px;
+	width:100px;
+	cursor:pointer;
+}
+table div:hover{
+	background: #30a7b5;
+}
+#result{
+	height:70px;
+	background: #CCCCCC;
+	font-size: 40px;
+	text-align: right;
+	width:98%;
+	cursor: default;
+	padding-right: 2%;
+}
+#result:hover{
+	background: #CCCCCC;
+}
+.del{
+	width:100%;
+}
+
+table{
+	float:left;
+}
+#history{
+	float:right;
+	width:30%;
+	text-align: right;
+	background-color: #cccccc;
+	padding-right:20px;
+	min-height: 200px;
+}
+p{
+	font-size: 20px;
+}
